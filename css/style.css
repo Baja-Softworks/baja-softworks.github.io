@@ -131,6 +131,11 @@ a:hover {
 	color: #62676d;
 	text-decoration: none;
 }
+a:hover i,
+a,
+i {
+  text-decoration: none !important;
+}
 a.arrowlink {
 	padding-left: 23px;
 	background: url(../images/down_marker1.png) 0 1px no-repeat;
@@ -312,9 +317,8 @@ h2, h3, h4 {
 h2 {
 	font-size: 17px;
 	line-height: 20px;
-	color: #12212f;
-	text-transform: uppercase;
-	text-align: left;
+	color: #000000;
+	text-align: center;
 	position: relative;
 	border-bottom: 3px solid rgb(0, 0, 0);
 	padding-bottom: 12px;
@@ -779,7 +783,7 @@ Project filter
 	margin-bottom: 10px;
 }
 .project-filter .active, .project-filter a:hover {
-	background: #12212F;
+	background: #ff0000;
 	border-radius: 3px;
 	padding: 3px 5px;
 	color: white;
@@ -1629,7 +1633,7 @@ footer
 ========================================================
 */
 footer {
-	padding: 57px 0px 60px 0;
+	padding: 150px 0px 60px 0;
 	background: none;
 }
 footer, footer a {
