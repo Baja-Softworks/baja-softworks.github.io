@@ -47,6 +47,11 @@ body {
 	background: #12212f;
 	-webkit-text-size-adjust: none;
 }
+
+.link-font{
+	text-align: center;
+	line-height: 0px;
+}
 p {
 	margin-bottom: 24px
 }
